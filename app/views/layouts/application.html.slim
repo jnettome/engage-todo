@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Todo
+    meta name="keywords" content="todo app"
+    meta name="author" content="jnettome"
+    = stylesheet_link_tag 'application', media: 'all'
+    = csrf_meta_tags
+
+  body
+
+    #content
+      == yield
